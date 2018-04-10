@@ -1,0 +1,123 @@
+body {
+  background-image: url("https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg");
+}
+
+header {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  padding: 20px 10px;
+  font-size: 20px;
+}
+
+.nav-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  height: 52px;
+  text-align: left;
+  margin-right: 30px;
+}
+
+.logo {
+  font-family: "Kaushan Script", cursive;
+  font-size: 28px;
+  line-height: 42px;
+  color: #fed136;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 20px;
+}
+
+.logo:hover {
+  color: #fec503;
+}
+
+.nav-link {
+  margin: 16px;
+  /* font-family: "Kaushan Script", cursive; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 14.4px;
+  line-height: 21.6;
+  letter-spacing: 1px;
+}
+
+.nav-link:hover {
+  color: #fec503;
+}
+
+.button {
+  background-color: #fed136;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  height: 45px;
+  width: 60px;
+  border-color: #fed136;
+  border-radius: 8px;
+}
+
+@media (min-width: 806px) {
+  .button {
+    display: none;
+  }
+}
+
+@media (max-width: 806px) {
+  .nav-container {
+    display: none;
+  }
+  .button {
+    display: block;
+  }
+  header {
+    background: black;
+  }
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  width: 100vw;
+}
+
+p {
+  font-family: "Noto Serif", serif;
+  color: white;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 75px;
+  line-height: 75px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tellmebutton {
+  align-self: center;
+  background-color: #fed136;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 27px;
+  color: white;
+  height: 69px;
+  width: 224px;
+  border-color: #fed136;
+  border-radius: 8px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+}
